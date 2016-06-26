@@ -13,11 +13,11 @@ int max(int a, int b)
 int main(int argc, char** argv)
 {
    int x,y;
-   if(argc<3){
-        cout << "Usage: a.exe v1 v2 where Vx are integers\n";
+   if(argc < 3){
+        cout <<" Usage: a.exe v1 v2 where Vx are integers\\n";
         return -1;
     }
-   cout<<max(atoi(argv[1]),atoi(argv[2]));
+   cout << max(atoi(argv[1]),atoi(argv[2]));
    return 0;
 }
 """
