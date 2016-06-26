@@ -17,7 +17,6 @@ int main(int argc, char** argv)
    cout << "Enter the first value: "; cin>>x;
    cout << "Enter the second value: "; cin>>y;
    cout << max(x,y);
-   cout << "Bye!";
    return 0;
 }
 """
