@@ -1,1 +1,1 @@
-genmain.py
+python genmain.py
